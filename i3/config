@@ -190,3 +190,6 @@ exec_always --no-startup-id feh --bg-center --no-xinerama ~/.config/wallpapers/f
 # Mouse acceleration disable
 exec_always --no-startup-id xinput --set-prop "Wings Tech Gaming Mouse" "libinput Accel Profile Enabled" 0, 1
 exec_always --no-startup-id xinput --set-prop "Wings Tech Gaming Mouse" "libinput Accel Speed" -0.5
+
+# Autostart in workspaces
+exec --no-startup-id ~/.config/tools/i3_autostart.sh
