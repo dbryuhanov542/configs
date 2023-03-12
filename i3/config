@@ -185,7 +185,7 @@ exec --no-startup-id picom --no-vsync
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start feh to set wallpaper
-exec_always --no-startup-id feh --bg-center --no-xinerama ~/.config/wallpapers/flowers.png
+exec_always --no-startup-id feh --bg-center ~/.config/wallpapers/forest.jpg
 
 # Mouse acceleration disable
 exec_always --no-startup-id xinput --set-prop "Wings Tech Gaming Mouse" "libinput Accel Profile Enabled" 0, 1
