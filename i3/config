@@ -166,6 +166,7 @@ bindsym $mod+b exec firefox
 # start rofi
 bindsym $mod+d exec --no-startup-id ~/.config/rofi/scripts/launcher_t1
 
+bindsym $mod+c exec --no-startup-id code
 
 ##CustommmmSettings
 
@@ -179,7 +180,7 @@ exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_
 exec --no-startup-id xrandr --output DP-2 --mode 1920x1080 --refresh 165.00 --output HDMI-1 --mode 1366x768 --rotate right
 
 # Start Picom Compositor for Effects
-exec --no-startup-id picom --no-vsync
+exec_always --no-startup-id ~/.config/tools/picom/build/src/picom -b --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness 500
 
 # Exec polybar at startup and after refreshing i3
 exec_always --no-startup-id ~/.config/polybar/launch.sh
