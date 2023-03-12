@@ -164,13 +164,13 @@ bindsym $mod+Return exec kitty
 bindsym $mod+b exec firefox
 
 # start rofi
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id ~/.config/rofi/scripts/launcher_t1
 
 
 ##CustommmmSettings
 
 #Rofi powermenu bind
-bindsym $mod+p exec --no-startup-id rofi -show powermenu -modi powermenu:~/.local/bin/rofi-power-menu
+bindsym $mod+p exec --no-startup-id ~/.config/rofi/scripts/powermenu_t1
 
 # Language change
 exec --no-startup-id setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle
