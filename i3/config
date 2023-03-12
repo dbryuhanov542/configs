@@ -5,7 +5,7 @@ set $mod Mod4
 ## APPEARANCE
 
 
-gaps inner 8
+gaps inner 3
 gaps outer 7
 for_window [class="^.*"] border pixel 5
 
@@ -185,7 +185,7 @@ exec --no-startup-id picom --no-vsync
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # Start feh to set wallpaper
-exec_always --no-startup-id feh --bg-center ~/.config/wallpapers/forest.jpg
+exec_always --no-startup-id feh --bg-fill ~/.config/wallpapers/forest.jpg
 
 # Mouse acceleration disable
 exec_always --no-startup-id xinput --set-prop "Wings Tech Gaming Mouse" "libinput Accel Profile Enabled" 0, 1
