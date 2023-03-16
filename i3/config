@@ -5,7 +5,7 @@ set $mod Mod4
 ## APPEARANCE
 
 # Start Picom Compositor for Effects
-exec_always --no-startup-id ~/.config/tools/picom/build/src/picom -b --animations --animation-window-mass 0.5 --animation-for-open-window zoom --animation-stiffness 700
+#exec_always --no-startup-id ~/.config/tools/picom/build/src/picom -b --animations --animation-for-open-window zoom --animation-stiffness 700
 
 gaps inner 3
 gaps outer 7
