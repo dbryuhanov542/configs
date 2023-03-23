@@ -1,4 +1,6 @@
 *
+!alacritty/*
+!tools/*
 !pkglist.txt
 !Code/*
 !rofi/*

@@ -4,9 +4,6 @@ set $mod Mod4
 
 ## APPEARANCE
 
-# Start Picom Compositor for Effects
-#exec_always --no-startup-id ~/.config/tools/picom/build/src/picom -b --animations --animation-for-open-window zoom --animation-stiffness 700
-
 gaps inner 3
 gaps outer 7
 for_window [class="^.*"] border pixel 5
@@ -160,7 +157,7 @@ bindsym $mod+r mode "resize"
 ## APPLICATIONS
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
 
 # start browser
 bindsym $mod+b exec firefox
@@ -203,3 +200,7 @@ exec_always --no-startup-id xinput --set-prop "Wings Tech Gaming Mouse" "libinpu
 
 # Autostart in workspaces
 exec --no-startup-id ~/.config/tools/i3_autostart.sh
+
+# Easyeffects start
+exec --no-startup-id easyeffects
+exec --no-startup-id easyeffects -w
