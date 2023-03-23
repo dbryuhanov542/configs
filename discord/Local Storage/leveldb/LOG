@@ -1,0 +1,15 @@
+2023/03/19-09:58:19.361 1d66 Reusing MANIFEST /home/dima/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/03/19-09:58:19.361 1d66 Recovering log #15
+2023/03/19-09:58:19.362 1d66 Reusing old log /home/dima/.config/discord/Local Storage/leveldb/000015.log 
+2023/03/19-10:00:21.181 1e9a Level-0 table #19: started
+2023/03/19-10:00:21.188 1e9a Level-0 table #19: 1472781 bytes OK
+2023/03/19-10:00:21.189 1e9a Delete type=0 #15
+2023/03/19-10:00:21.189 1e9a Compacting 4@0 + 1@1 files
+2023/03/19-10:00:21.196 1e9a Generated table #20@0: 51 keys, 1475156 bytes
+2023/03/19-10:00:21.196 1e9a Compacted 4@0 + 1@1 files => 1475156 bytes
+2023/03/19-10:00:21.196 1e9a compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/19-10:00:21.196 1e9a Delete type=2 #19
+2023/03/19-10:00:21.196 1e9a Delete type=2 #16
+2023/03/19-10:00:21.196 1e9a Delete type=2 #8
+2023/03/19-10:00:21.196 1e9a Delete type=2 #13
+2023/03/19-10:00:21.196 1e9a Delete type=2 #11

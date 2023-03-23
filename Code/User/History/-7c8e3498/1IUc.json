@@ -1,0 +1,5 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "'Fira Code Nerd Font'",
+    "editor.tabSize": 3
+}

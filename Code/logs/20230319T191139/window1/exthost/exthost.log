@@ -1,0 +1,51 @@
+2023-03-19 19:11:40.059 [info] Extension host with pid 2044 started
+2023-03-19 19:11:40.059 [info] Skipping acquiring lock for /home/dima/.config/Code/User/workspaceStorage/42f417b6cd98e2e3a60db2bfc9c81019.
+2023-03-19 19:11:40.188 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-19 19:11:40.192 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-19 19:11:40.193 [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode, startup: true, activationEvent: '*'
+2023-03-19 19:11:40.294 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:yaml'
+2023-03-19 19:11:40.330 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2023-03-19 19:11:40.362 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-19 19:11:40.376 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-19 19:11:40.407 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-19 19:11:40.410 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-19 19:11:40.421 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-19 19:11:40.428 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-03-19 19:11:40.457 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-19 19:11:40.492 [info] Eager extensions activated
+2023-03-19 19:11:40.563 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-19 19:11:40.565 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-19 19:11:40.665 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-19 19:11:40.934 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-03-19 19:11:40.935 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2023-03-19 19:11:41.069 [error] Error: ENOENT: no such file or directory, lstat '/home/dima/.config/i3/config.git'
+	at lstatSync (node:fs:1516:3)
+	at e.lstatSync (node:electron/js2c/asar_bundle:5:3752)
+	at c (/home/dima/.vscode/extensions/redhat.vscode-yaml-1.12.1/dist/extension.js:2:284766)
+	at /home/dima/.vscode/extensions/redhat.vscode-yaml-1.12.1/dist/extension.js:2:285125
+	at f.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:9669
+	at f.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at m.acceptDocumentsAndEditorsDelta (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:13808)
+	at m.$acceptDocumentsAndEditorsDelta (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:98:12249)
+	at a.N (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11223)
+	at a.M (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10941)
+	at a.H (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:10034)
+	at a.G (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:9015)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:7803
+	at f.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:16556
+	at f.invoke (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:14682)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364)

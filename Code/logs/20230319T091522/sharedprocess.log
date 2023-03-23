@@ -1,0 +1,10 @@
+2023-03-19 09:15:23.486 [info] Starting worker process with pid 2352 (type: fileWatcher, window: 1).
+2023-03-19 10:22:58.725 [info] Worker process with pid 2352 terminated normally (type: fileWatcher, window: 1).
+2023-03-19 10:22:59.056 [info] Starting worker process with pid 10846 (type: fileWatcher, window: 1).
+2023-03-19 10:24:22.803 [info] Getting Manifest... redhat.vscode-yaml
+2023-03-19 10:24:22.808 [info] Installing extension: redhat.vscode-yaml
+2023-03-19 10:24:24.092 [info] Extension signature verification: redhat.vscode-yaml. Verification status: Verified.
+2023-03-19 10:24:24.147 [info] Extracted extension to /home/dima/.vscode/extensions/.f0fa184a-fa69-42f7-a84e-202b1775f261: redhat.vscode-yaml
+2023-03-19 10:24:24.149 [info] Renamed to /home/dima/.vscode/extensions/redhat.vscode-yaml-1.12.1
+2023-03-19 10:24:24.150 [info] Extracting extension completed. redhat.vscode-yaml
+2023-03-19 10:24:24.157 [info] Extension installed successfully: redhat.vscode-yaml

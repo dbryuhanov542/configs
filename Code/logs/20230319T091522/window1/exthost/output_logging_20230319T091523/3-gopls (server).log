@@ -1,0 +1,29 @@
+[Info  - 9:15:23 AM] 2023/03/19 09:15:23 go env for /home/dima/projects/go
+(root /home/dima/projects/go)
+(go version go version go1.20.2 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOMOD=/dev/null
+GO111MODULE=
+GOMODCACHE=/home/dima/go/pkg/mod
+GOPATH=/home/dima/go
+GONOPROXY=
+GOSUMDB=sum.golang.org
+GOINSECURE=
+GOPRIVATE=
+GOROOT=/usr/local/go
+GOFLAGS=
+GONOSUMDB=
+GOWORK=
+GOCACHE=/home/dima/.cache/go-build
+GOPROXY=https://proxy.golang.org,direct
+
+
+[Info  - 9:15:24 AM] 2023/03/19 09:15:24 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/dima/projects/go
+	query=[./ builtin]
+	packages=2
+
+[Info  - 9:15:24 AM] 2023/03/19 09:15:24 go/packages.Load #1: updating metadata for 42 packages
+

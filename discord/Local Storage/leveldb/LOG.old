@@ -1,0 +1,8 @@
+2023/03/16-21:17:29.963 4a89 Reusing MANIFEST /home/dima/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/03/16-21:17:29.963 4a89 Recovering log #10
+2023/03/16-21:17:29.968 4a89 Level-0 table #13: started
+2023/03/16-21:17:29.977 4a89 Level-0 table #13: 1448785 bytes OK
+2023/03/16-21:17:29.978 4a89 Delete type=0 #10
+2023/03/16-21:18:48.066 4a88 Level-0 table #16: started
+2023/03/16-21:18:48.089 4a88 Level-0 table #16: 1462646 bytes OK
+2023/03/16-21:18:48.090 4a88 Delete type=0 #14

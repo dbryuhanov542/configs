@@ -1,0 +1,12 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "'Fira Code Nerd Font'",
+    "editor.tabSize": 3,
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.zoomLevel": 1,
+    "explorer.confirmDelete": false,
+    "tabnine.experimentalAutoImports": true
+}

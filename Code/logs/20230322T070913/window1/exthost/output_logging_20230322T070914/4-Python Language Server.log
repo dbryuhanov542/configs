@@ -1,0 +1,14 @@
+[Info  - 7:09:15 AM] (2282) Pylance language server 2023.3.20 (pyright 93a4ef87) starting
+[Info  - 7:09:15 AM] (2282) Server root directory: /home/dima/.vscode/extensions/ms-python.vscode-pylance-2023.3.20/dist
+[Info  - 7:09:15 AM] (2282) Starting service instance "docker"
+[Info  - 7:09:15 AM] (2282) Auto-indent enabled
+[Info  - 7:09:15 AM] (2282) No configuration file found.
+[Info  - 7:09:15 AM] (2282) No pyproject.toml file found.
+[Info  - 7:09:15 AM] (2282) Setting pythonPath for service "docker": "/bin/python3"
+[Warn  - 7:09:15 AM] (2282) stubPath /home/dima/projects/docker/typings is not a valid directory.
+[Info  - 7:09:15 AM] (2282) Assuming Python version 3.11
+[Info  - 7:09:15 AM] (2282) Assuming Python platform Linux
+[Info  - 7:09:15 AM] (2282) Searching for source files
+[Info  - 7:09:15 AM] (2282) Found 1 source file
+[Info  - 7:09:15 AM] (2282) Background analysis(1) root directory: /home/dima/.vscode/extensions/ms-python.vscode-pylance-2023.3.20/dist
+[Info  - 7:09:15 AM] (2282) Background analysis(1) started

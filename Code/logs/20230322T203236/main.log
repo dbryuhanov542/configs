@@ -1,0 +1,8 @@
+2023-03-22 20:32:36.811 [info] update#setState idle
+2023-03-22 20:32:37.403 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-03-22 20:32:37.407 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2001]: successfully created
+2023-03-22 20:33:23.358 [info] update#setState checking for updates
+2023-03-22 20:33:23.607 [info] update#setState available for download
+2023-03-22 20:43:53.933 [info] [UtilityProcess id: 1, type: extensionHost, pid: 2001]: received exit event with code 0
+2023-03-22 20:43:53.934 [info] Extension host with pid 2001 exited with code: 0, signal: unknown.
+2023-03-22 20:43:53.936 [error] [UtilityProcess id: 1, type: extensionHost, pid: 2001]: crashed with code 15 and reason 'killed'

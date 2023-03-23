@@ -1,0 +1,10 @@
+2023-03-23 07:13:09.561 [info] Starting worker process with pid 2160 (type: fileWatcher, window: 1).
+2023-03-23 07:13:13.960 [info] Getting Manifest... ms-python.vscode-pylance
+2023-03-23 07:13:14.073 [info] Installing extension: ms-python.vscode-pylance
+2023-03-23 07:13:14.695 [info] Getting Manifest... ms-python.python
+2023-03-23 07:13:16.740 [info] Extension signature verification: ms-python.vscode-pylance. Verification status: Verified.
+2023-03-23 07:13:17.832 [info] Extracted extension to /home/dima/.vscode/extensions/.a910167a-1f54-4354-b1d6-899553051827: ms-python.vscode-pylance
+2023-03-23 07:13:17.836 [info] Renamed to /home/dima/.vscode/extensions/ms-python.vscode-pylance-2023.3.30
+2023-03-23 07:13:17.837 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-03-23 07:13:17.842 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-03-23 07:13:17.844 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.3.20

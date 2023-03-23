@@ -1,0 +1,31 @@
+2023-03-22 20:19:20.379 [info] Log level: Info
+2023-03-22 20:19:20.379 [info] Validating found git in: "git"
+2023-03-22 20:19:20.379 [info] Using git "2.39.2" from "git"
+2023-03-22 20:19:20.382 [info] > git rev-parse --show-toplevel [7ms]
+2023-03-22 20:19:20.382 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-22 20:19:20.446 [info] > git rev-parse --show-toplevel [61ms]
+2023-03-22 20:19:20.489 [info] > git rev-parse --git-dir --git-common-dir [39ms]
+2023-03-22 20:19:20.498 [info] Open repository: /home/dima/.config
+2023-03-22 20:19:20.519 [info] > git rev-parse --show-toplevel [17ms]
+2023-03-22 20:19:20.519 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-22 20:19:20.530 [info] > git rev-parse --show-toplevel [7ms]
+2023-03-22 20:19:20.530 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-22 20:19:20.535 [info] > git config --get commit.template [21ms]
+2023-03-22 20:19:20.556 [info] > git rev-parse --show-toplevel [21ms]
+2023-03-22 20:19:20.556 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-22 20:19:20.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-03-22 20:19:20.575 [info] > git status -z -uall [3ms]
+2023-03-22 20:19:20.588 [info] > git config --get commit.template [6ms]
+2023-03-22 20:19:20.609 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-03-22 20:19:20.629 [info] > git status -z -uall [17ms]
+2023-03-22 20:19:20.629 [info] > git rev-parse --show-toplevel [9ms]
+2023-03-22 20:19:20.629 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-03-22 20:19:20.940 [info] > git show --textconv :i3/config [4ms]
+2023-03-22 20:19:20.941 [info] > git ls-files --stage -- /home/dima/.config/i3/config [2ms]
+2023-03-22 20:19:20.946 [info] > git cat-file -s 8410da9a8b95b6788908fe4f997e07ecf740def5 [0ms]
+2023-03-22 20:19:21.031 [info] > git check-ignore -v -z --stdin [0ms]
